@@ -3032,6 +3032,17 @@ Scheme
 			}
 		}
 		
+		"Biko16"
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" 	"1"
+			}
+		}
+		
 		"DeltaruneFont12"
 		{
 			"1"
@@ -6086,6 +6097,7 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		
 		"10"		"resource/linux_fonts/DejaVuSans.ttf"
 		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
 		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
@@ -6096,7 +6108,7 @@ Scheme
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"18"
 		{
-			"font" "fonts/Biko_Regular.otf"
+			"font" "resource/fonts/Biko_Regular.otf"
 			"name" "Biko"
 		}
 		"19"
@@ -6113,18 +6125,21 @@ Scheme
 		}
 		"21"
 		{
-			"font" "fonts/8bitoperator_jve.otf"
-			"name" "8bitoperator JVE Regular"
+			"font" "resource/fonts/crypt-of-tomorrow-ut-font-no-rus.otf"
+			"name" "Crypt of Tomorrow UT Font (no rus) Regular"
 		}
 		"22"
 		{
-			"font" "fonts/crypt-of-tomorrow-ut-font-no-rus.otf"
-			"name" "Crypt of Tomorrow UT Font (no rus) Regular"
+			"font" "resource/fonts/dotumche-pixel.ttf"
+			"name" "DotumChe Pixel Regular"
 		}
+		
 		"23"
 		{
-			"font" "fonts/dotumche-pixel.otf"
-			"name" "DotumChe Pixel Regular"
+			{
+				"font" "resource/fonts/8bitoperator_jve.ttf"
+				"name" "8bitoperator JVE Regular"
+			}
 		}
 	}
 }

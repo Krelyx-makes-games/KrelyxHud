@@ -1,6 +1,36 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+	"RedHealthPanel"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "RedHealthPanel"
+		"xpos" "r80"
+		"ypos" "r50"
+		"wide" "140"
+		"tall" "50"
+		"visible" "1"
+		"enabled" "1"
+		"image" "myMaterials/RedHealthPanel"
+		"scaleImage" "1"
+		"proportionaltoparent" "1"
+	}
+
+	"BluHealthPanel"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName" "BluHealthPanel"
+		"xpos" "r20"
+		"ypos" "r50"
+		"wide" "140"
+		"tall" "50"
+		"visible" "1"
+		"enabled" "1"
+		"image" "myMaterials/BluHealthPanel"
+		"scaleImage" "1"
+		"proportionaltoparent" "1"
+	}
+
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -32,6 +62,7 @@
 		"tall"			"51"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"myMaterials/BluHealthPanel"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
@@ -73,7 +104,7 @@
 	}
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"96"
 		"xpos_minmode"	"61"
@@ -85,10 +116,30 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"BikoRegular12"
+		"textAlignment"	"center"
+		"font"			"DeltaruneFont12"
 		"fgcolor"		"white"
 	}
+	
+	"MyTextLable"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MyTextLable"
+		"xpos"			"76"
+		"xpos_minmode"	"61"
+		"ypos"			"20"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"HELLO WORLD"
+		"textAlignment"	"center"	
+		"font"			"DeltaruneFont12"
+		"fgcolor"		"Black"
+	}
+	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -104,7 +155,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"BikoRegular12"
+		"font"			"CryptOfTomorrow12"
 		"fgcolor"		"Black"
 	}
 	"PlayerStatusBleedImage"
